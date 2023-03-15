@@ -1,9 +1,9 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Outfit, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  background-color: #d5e1ef;
+  background-color: hsl(212, 45%, 89%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -21,14 +21,14 @@ body {
 }
 
 p {
-  color: gray;
-  font-weight: 500;
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
   line-height: 1.3em;
-  opacity: 0.9;
+  padding: 0 1em;
 }
 
 h2 {
-  font-weight: 700;
+  color: hsl(218, 44%, 22%);
 }
 
 .card {
@@ -36,7 +36,6 @@ h2 {
   border-radius: 1em;
   width: 300px;
   padding: 1em;
-
   box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
 }
 
