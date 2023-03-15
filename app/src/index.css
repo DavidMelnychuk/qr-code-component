@@ -1,0 +1,46 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #d5e1ef;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+p {
+  color: gray;
+  font-weight: 500;
+  line-height: 1.3em;
+  opacity: 0.9;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+.card {
+  background-color: white;
+  border-radius: 1em;
+  width: 300px;
+  padding: 1em;
+
+  box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+}
+
+.qr-code {
+  border-radius: 1em;
+  width: 100%;
+}
