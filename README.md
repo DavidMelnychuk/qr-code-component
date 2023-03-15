@@ -13,6 +13,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
+To view challenge done with TailwindCSS, view the tailwind branch.
+
 ### Screenshot
 
 ![](/images/screenshot.png)
