@@ -4,7 +4,11 @@ import QRCodeImage from "./assets/image-qr-code.png";
 function App() {
   return (
     <div className="card">
-      <img src={QRCodeImage} className="qr-code"></img>
+      <img
+        src={QRCodeImage}
+        className="qr-code"
+        alt="QR Code to Frontend Mentor"
+      ></img>
       <h2>Improve your front-end skills by building projects</h2>
       <p>
         Scan the QR code to visit Frontend Mentor and take your coding skills to
